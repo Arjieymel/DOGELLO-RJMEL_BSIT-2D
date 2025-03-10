@@ -11,7 +11,7 @@ var isSunk = false;
 //game logic//
 
 while (isSunk == false) {
-    guess == prompt ("Ready!. Aim. Fire! (Enter Number 0-6)");
+    guess = prompt ("Ready!. Aim. Fire! (Enter Number 0-6)");
 
     if (guess < 0 || guess > 6 ) {
         alert("Please enter a valid number!")
